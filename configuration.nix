@@ -129,6 +129,8 @@
 	mpv
 	ncspot
 	cava
+	unzip
+	unrar
    ];
 
   # Some programs need SUID wrappers, can be configured further or are
