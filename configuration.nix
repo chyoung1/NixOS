@@ -131,6 +131,9 @@
 	cava
 	unzip
 	unrar
+	xfce.thunar
+	xfce.thunar-volman
+	xfce.thunar-archive-plugin
    ];
 
   # Some programs need SUID wrappers, can be configured further or are
