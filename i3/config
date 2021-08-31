@@ -190,7 +190,7 @@ floating_maximum_size 1280 x 720
 exec --no-startup-id picom -b
 exec --no-startup-id wal -R
 exec --no-startup-id sh ~/.config/polybar/launch.sh --hack
-exec --no-startup-id python3 ~/i3-alternating-layout/alternating_layouts.py
+exec_always --no-startup-id python3 ~/i3-alternating-layout/alternating_layouts.py
 exec --no-startup-id xrandr --output VGA-1 --left-of LVDS-1
 exec --no-startup-id kdeconnect-indicator
 # my custom binds
