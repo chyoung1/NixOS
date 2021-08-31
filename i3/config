@@ -194,9 +194,9 @@ exec --no-startup-id python3 ~/i3-alternating-layout/alternating_layouts.py
 exec --no-startup-id xrandr --output VGA-1 --left-of LVDS-1
 exec --no-startup-id kdeconnect-indicator
 # my custom binds
-bindsym $mod+a exec alacritty -e ranger
-bindsym $mod+F2 exec firefox
+bindsym $mod+a exec thunar
+bindsym $mod+w exec flatpak run io.gitlab.librewolf-community
 bindsym $mod+Shift+Return exec nautilus
-bindsym $mod+d exec rofi -show combi
 bindsym $mod+q move scratchpad
 bindsym $mod+space scratchpad show
+bindsym $mod+d exec sh ~/.config/polybar/hack/scripts/launcher.sh
